@@ -31,3 +31,7 @@ sentence.forEach((item) => {
     }
     return;
 })
+
+// task 6
+const notPoppedArr = ["you", "can't", "see", "me!"]
+console.log("task 6: ", notPoppedArr.toSpliced(-1, 1))
