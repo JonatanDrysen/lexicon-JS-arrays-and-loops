@@ -16,3 +16,9 @@ numbers2.forEach((item) => {
     }
 })
 console.log("task 3: ", newArr)
+
+// task 4
+const numbers3 = [13, 4, 75, 1, 45, 7, 673, 0, 95, 12, 9]
+let totalSum = 0
+numbers3.forEach((item) => totalSum += item)
+console.log("task 4: ", totalSum)
