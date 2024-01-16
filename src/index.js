@@ -22,3 +22,12 @@ const numbers3 = [13, 4, 75, 1, 45, 7, 673, 0, 95, 12, 9]
 let totalSum = 0
 numbers3.forEach((item) => totalSum += item)
 console.log("task 4: ", totalSum)
+
+// task 5
+const sentence = ["the", "fox", "jumped", "over", "the", "turtle"]
+sentence.forEach((item) => {
+    if(item === "the") {
+        console.log("task 5: ", item)
+    }
+    return;
+})
