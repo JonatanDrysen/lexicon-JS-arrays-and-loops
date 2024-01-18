@@ -46,3 +46,8 @@ const arr1 = ["hello", 234, 9123, "World", "!", 340]
 const arr2 = []
 arr1.forEach((item) => arr2.push(item))
 console.log("task 8: ", arr2)
+
+// task9
+const soonToBeEmptyArr = ["don't", "delete", "me", "!"]
+soonToBeEmptyArr.forEach((_item, _index, arr) => arr.length = 0)
+console.log("task 9: ", soonToBeEmptyArr)
