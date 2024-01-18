@@ -40,3 +40,9 @@ console.log("task 6: ", notPoppedArr.toSpliced(-1, 1))
 const numbers4 = [2, 6, 7, 1, 8, 3, 5, 2812, 11]
 const biggestNum = numbers4.reduce((biggest, current) => (current > biggest ? current : biggest), numbers4[0])
 console.log("task 7: ", biggestNum)
+
+// task 8
+const arr1 = ["hello", 234, 9123, "World", "!", 340]
+const arr2 = []
+arr1.forEach((item) => arr2.push(item))
+console.log("task 8: ", arr2)
