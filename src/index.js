@@ -35,3 +35,8 @@ sentence.forEach((item) => {
 // task 6
 const notPoppedArr = ["you", "can't", "see", "me!"]
 console.log("task 6: ", notPoppedArr.toSpliced(-1, 1))
+
+// task 7
+const numbers4 = [2, 6, 7, 1, 8, 3, 5, 2812, 11]
+const biggestNum = numbers4.reduce((biggest, current) => (current > biggest ? current : biggest), numbers4[0])
+console.log("task 7: ", biggestNum)
